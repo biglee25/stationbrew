@@ -1,0 +1,60 @@
+ :root {
+
+    /* Text Colour Variables */
+    --primary-text-color: #333;
+    --secondary-text-color: #fff;
+
+    /* Background Colour Variables */
+    --primary-bg-color: #333;
+    --secondary-bg-color: #fff;
+ }
+ 
+ /* CSS Reset */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+ }
+
+ /* Section Defaults */
+
+ section {
+     width: 100%;
+ }
+
+ section, .navbar {
+     height: 100px;
+     color: var(--secondary-text-color);
+     background: var(--primary-bg-color);
+ }
+
+
+
+
+ /* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+
+}    
