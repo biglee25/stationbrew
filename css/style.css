@@ -91,6 +91,7 @@
   }
 
   .hero-cta .btn {
+    background: #fff;
     width: 50%;
     padding: 1em 0;
     margin-top: 1em;
@@ -104,7 +105,7 @@
 
 
  /* SMARTPHONES PORTRAIT */
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
    .navbar .navbar-cta {
        display: none;
@@ -114,13 +115,31 @@
        display: none;
    }
 
-   /* Hero CTA */
+   /* Hero */
+
+   .hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 6rem;
+    background: url("/img/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
 
    .hero-cta {
     background: #241E20;
     color: #fff;
-    width: 50%;
-    padding: 5em;
+    width: 90%;
+    height: auto;
+    margin-top: 20%;
+    padding: 2em 0.2em;
     text-align: center;
 }
 
@@ -129,6 +148,7 @@
 }
 
 .hero-cta .btn {
+    background: #fff;
   width: 70%;
   padding: 1em 0;
   margin-top: 1em;
