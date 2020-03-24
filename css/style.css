@@ -1,11 +1,11 @@
  :root {
 
     /* Text Colour Variables */
-    --primary-text-color: #333;
+    --primary-text-color: #000;
     --secondary-text-color: #fff;
 
     /* Background Colour Variables */
-    --primary-bg-color: #333;
+    --primary-bg-color: #241E20;
     --secondary-bg-color: #fff;
  }
  
@@ -23,20 +23,60 @@
 
  section {
      width: 100%;
+     overflow-x: hidden;
  }
 
- section, .navbar {
-     height: 100px;
+/* Navbar Section */
+
+ .navbar {
+     display: flex;
+     position: fixed;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1em;
+     height: auto;
+     z-index: 1;
      color: var(--secondary-text-color);
      background: var(--primary-bg-color);
  }
+
+.navbar .navbar-cta {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0.5em 2em;
+}
+
+.navbar .navbar-cta .fa {
+    padding-right: 0.3em;
+}
+
+.navbar .navbar-cta, a {
+    text-decoration: none;
+    color: var(--primary-text-color)
+}
+
+.navbar .social-icons .fa {
+    padding: 0 0.1em;
+}
+
+
+ 
 
 
 
 
  /* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 300px) {
+@media only screen and (max-width: 1024px) {
 
+   .navbar .navbar-cta {
+       display: none;
+   }
+      
+   .navbar .social-icons .fa {
+       display: none;
+   }
+   
 
 }
 
