@@ -66,6 +66,44 @@
     padding: 0 0.1em;
 }
 
+.navbar .navbar-cta, a {
+    text-decoration: none;
+    color: var(--secondary-text-color)
+}
+
+/* Slide Menu */
+
+#menu-wrapper {
+    display: none;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left:0;
+    background: rgb(0, 0, 0, 0.99);
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+}
+
+.menu .fa {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
 
 /* Hero Section */
 

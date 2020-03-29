@@ -8,13 +8,14 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=poppins&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+
     <!-- Navbar -->
 
-<section class="navbar">
+    <section class="navbar">
     <img src="img/logo.png" alt="Station Brew Cafe">
         <div class="navbar-cta">
             <i class="fa fa-mobile fa-3x"></i>
@@ -25,10 +26,22 @@
             <i class="fa fa-twitter fa-2x"></i>
             <i class="fa fa-instagram fa-2x"></i>
         </div>
-        <div class="navbar-icon">
-            <i class="fa fa-bars fa-2x"></i>        
-        </div>
+        <a href="#" onclick="openMenu()"><i class="fa fa-bars fa-2x"></i></a>        
 </section>
+
+    <!-- Slide Menu -->
+    <div id="menu-wrapper">
+        <div class="menu">
+            <a href="#" onclick="closeMenu()"><i class="fa fa-times-circle fa-2x"></i></a>
+            <ul>
+               <a href="index.html"><li>Home</li></a>
+                <a href="#"><li>Menu</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+    
+        </div>
+    </div>
+
 
 <section class="hero">
     <div class="hero-cta">
@@ -83,6 +96,6 @@
 </section>
     
     <!-- Custom JavaScript -->
-    <script src="/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
