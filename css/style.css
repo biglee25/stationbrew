@@ -59,19 +59,17 @@
 
 .navbar .navbar-cta, a {
     text-decoration: none;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .navbar .social-icons .fa {
     padding: 0 0.1em;
 }
 
-.navbar .navbar-cta, a {
+.navbar .fa {
     text-decoration: none;
     color: var(--secondary-text-color)
 }
-
-/* Slide Menu */
 
 #menu-wrapper {
     display: none;
@@ -81,7 +79,7 @@
     position: absolute;
     top: 0;
     left:0;
-    background: rgb(0, 0, 0, 0.99);
+    background: #241E20;
     color: #fff;
     font-size: 1.5rem;
     text-align: center;
@@ -101,6 +99,13 @@
     position: absolute;
     top: 20px;
     right: 20px;
+}
+
+.menu li {
+    color: #F2F2F2;
+    cursor: pointer;
+    list-style: none;
+    padding: 0.5em 0;
 }
 
 
@@ -244,6 +249,12 @@
    .navbar .social-icons .fa {
        display: none;
    }
+
+   /* Slide Menu */
+
+
+
+
 
    /* Hero */
 
