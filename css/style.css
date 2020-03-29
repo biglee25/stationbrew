@@ -99,10 +99,11 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    color: #fff;
 }
 
 .menu li {
-    color: #F2F2F2;
+    color: #fff;
     cursor: pointer;
     list-style: none;
     padding: 0.5em 0;
