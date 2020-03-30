@@ -422,7 +422,7 @@
 
     .about-grid {
         width: 100%;
-        padding: 1em;
+        padding: 0 1em;
         background: #F2F2F2;
         display: grid;
         grid-template-areas:
@@ -438,7 +438,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 1em;
+        padding: 0 1em 2.5em 1em;
     }
     
     .eco .blocks {
@@ -499,14 +499,12 @@
 
         .gallery {
             width: 100%;
-            margin: auto;
-            padding: 0 2em;
+            padding: 0 2em 2em 2em;
             display: grid;
             justify-items: center;
             grid-template-areas:
             "gallery1 gallery1"
             "gallery2 gallery3";
-            
             grid-gap: 1em;
         }
         
