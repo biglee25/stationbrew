@@ -422,7 +422,7 @@
 
     .about-grid {
         width: 100%;
-        padding: 0 1em;
+        padding:1em;
         background: #F2F2F2;
         display: grid;
         grid-template-areas:
