@@ -53,8 +53,8 @@
     padding: 0.5em 2em;
 }
 
-.navbar .navbar-cta .fa {
-    padding-right: 0.3em;
+.navbar .navbar-cta .fa-mobile-alt {
+    margin: 0 0.3em;
 }
 
 .navbar .navbar-cta, a {
@@ -62,11 +62,19 @@
     color: var(--primary-text-color);
 }
 
-.navbar .social-icons .fa {
-    padding: 0 0.1em;
+.navbar .social-icons .fa-facebook {
+    margin: 0 0.3em;
 }
 
-.navbar .fa {
+.navbar .social-icons .fa-twitter {
+    margin: 0 0.3em;
+}
+
+.navbar .social-icons .fa-instagram {
+    margin: 0 0.3em;
+}
+
+.navbar .fas {
     text-decoration: none;
     color: var(--secondary-text-color)
 }
@@ -190,8 +198,9 @@
     color: #fff;
 }
 
-.about-grid .about .fa {
+.about-grid .about .fa-leaf {
     color: var(--primary-icon-color);
+    margin-bottom: 0.5em;
 }
 
 
@@ -212,8 +221,124 @@
 }
 
 
+/* Eco Section */
 
-  
+.eco {
+    width: 100%;
+    height: auto;
+    padding: 5em 0;
+}
+
+.eco .eco-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 7em 2em 7em;
+
+}
+
+.eco-heading .fa-globe-europe {
+    color: var(--primary-icon-color);
+
+}
+
+.eco .blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eco .blocks .block1 {
+    width: 100%;
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.eco .blocks .block1 .fa-recycle {
+    color: var(--primary-icon-color);
+}
+
+.eco .blocks .block2 {
+    width: 100%;
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.eco .blocks .block2 .fa-mug-hot {
+    color: var(--primary-icon-color);
+}
+
+.eco .blocks .block3 {
+    width: 100%;
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.eco .blocks .block3 .fa-tint {
+    color: var(--primary-icon-color);
+}
+
+
+/* Gallery Section */
+
+.gallery {
+    width: 100%;
+    margin: auto;
+    padding: 2em;
+    display: grid;
+    justify-items: center;
+    grid-template-areas:
+    "gallery1 gallery1 gallery2"
+    "gallery1 gallery1 gallery3";
+    grid-gap: 1em;
+}
+
+.gallery1 {
+    grid-area: gallery1;
+    width: 100%;
+    height: auto;
+}
+
+.gallery2 {
+    grid-area: gallery2;
+    width: 100%;
+    height: auto;
+}
+
+.gallery3 {
+    grid-area: gallery3;
+    width: 100%;
+    height: auto;
+}
+
  
 
 
@@ -308,8 +433,79 @@
         grid-gap: 1em;
     }
 
+    .eco .blocks {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .eco .blocks .block1 {
+        width: 100%;
+        padding: 2em;
+        background: #000;
+        color: #fff;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1em;
+    }
+    
+    .eco .blocks .block2 {
+        width: 100%;
+        padding: 2em;
+        background: #000;
+        color: #fff;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1em;
+    }
+    
+    .eco .blocks .block3 {
+        width: 100%;
+        padding: 2em;
+        background: #000;
+        color: #fff;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1em;
+    }
 
+        /* Gallery Section */
+
+        .gallery {
+            width: 100%;
+            margin: auto;
+            padding: 2em;
+            display: grid;
+            justify-items: center;
+            grid-template-areas:
+            "gallery1 gallery1"
+            "gallery2 gallery3";
+            
+            grid-gap: 1em;
+        }
+        
+        
+    
 }
+
+
+
+
 /* SMARTPHONES LANDSCAPE */
 @media (min-width: 480px) {
 
