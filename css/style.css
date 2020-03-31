@@ -223,13 +223,13 @@
 
 /* Eco Section */
 
-.eco {
+.eco-section {
     width: 100%;
     height: auto;
     padding: 5em 0;
 }
 
-.eco .eco-heading {
+.eco-section .eco-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,18 +238,18 @@
 
 }
 
-.eco-heading .fa-globe-europe {
+.eco-section .eco-heading .fa-globe-europe {
     color: var(--primary-icon-color);
 
 }
 
-.eco .blocks {
+.eco-section .blocks {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.eco .blocks .block1 {
+.eco-section .blocks .block1 {
     width: 100%;
     padding: 2em;
     background: #000;
@@ -264,11 +264,11 @@
     margin: 0 1em;
 }
 
-.eco .blocks .block1 .fa-recycle {
+.eco-section .blocks .block1 .fa-recycle {
     color: var(--primary-icon-color);
 }
 
-.eco .blocks .block2 {
+.eco-section .blocks .block2 {
     width: 100%;
     padding: 2em;
     background: #000;
@@ -283,11 +283,11 @@
     margin: 0 1em;
 }
 
-.eco .blocks .block2 .fa-mug-hot {
+.eco-section .blocks .block2 .fa-mug-hot {
     color: var(--primary-icon-color);
 }
 
-.eco .blocks .block3 {
+.eco-section .blocks .block3 {
     width: 100%;
     padding: 2em;
     background: #000;
@@ -302,7 +302,7 @@
     margin: 0 1em;
 }
 
-.eco .blocks .block3 .fa-tint {
+.eco-section .blocks .block3 .fa-tint {
     color: var(--primary-icon-color);
 }
 
@@ -477,7 +477,7 @@
 
     .about-grid {
         width: 100%;
-        padding:1em;
+        padding: 3em 1em;
         background: #F2F2F2;
         display: grid;
         grid-template-areas:
@@ -488,7 +488,11 @@
         grid-gap: 1em;
     }
 
-    .eco .eco-heading {
+    .eco-section {
+        padding: 3em 0;
+    }
+
+    .eco-section .eco-heading {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -496,7 +500,7 @@
         padding: 0 1em 2.5em 1em;
     }
     
-    .eco .blocks {
+    .eco-section .blocks {
         width: 100%;
         padding: 0 1em;
         display: flex;
@@ -505,7 +509,7 @@
         justify-content: center;
     }
     
-    .eco .blocks .block1 {
+    .eco-section .blocks .block1 {
         width: 100%;
         padding: 2em;
         background: #000;
@@ -520,7 +524,7 @@
         margin: 1em;
     }
     
-    .eco .blocks .block2 {
+    .eco-section .blocks .block2 {
         width: 100%;
         padding: 2em;
         background: #000;
@@ -535,7 +539,7 @@
         margin: 1em;
     }
     
-    .eco .blocks .block3 {
+    .eco-section .blocks .block3 {
         width: 100%;
         padding: 2em;
         background: #000;
