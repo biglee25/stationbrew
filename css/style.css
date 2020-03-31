@@ -445,6 +445,77 @@
 }
 
 
+/* -------------- Menu Section ---------------- */
+
+.menu-header {
+    width: 100%;
+}
+
+.menu-header .title-container {
+    color: var(--secondary-text-color);
+    margin: 8em 2em 0 2em;
+    padding: 2em;
+    background: #000;
+    text-align: center;
+}
+
+.menu-items .menu-container {
+    padding: 2em;
+    display: grid;
+    justify-items: center;
+    grid-template-areas:
+    "coffee-header coffee-header coffee-header tea-header tea-header tea-header"
+    "coffee-items coffee-items coffee-price tea-items tea-items tea-price";
+    grid-gap: 1em;
+}
+
+.coffee-header {
+    grid-area: coffee-header;
+    width: 100%;
+    height: auto;
+    background: #676062;
+    color: var(--secondary-text-color);
+    padding: 1em;
+}
+
+.tea-header {
+    grid-area: tea-header;
+    width: 100%;
+    height: auto;
+    background: #676062;
+    color: var(--secondary-text-color);
+    padding: 1em;
+}
+
+.coffee-items {
+    grid-area: coffee-items;
+}
+
+.coffee-price {
+    grid-area: coffee-price;
+}
+
+.tea-items {
+    grid-area: tea-items;
+}
+
+.tea-price {
+    grid-area: tea-price;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -665,6 +736,19 @@
         .bottom-footer .social-icons {
             padding: 0 5em;
         }
+
+        .menu-items .menu-container {
+            padding: 2em;
+            display: grid;
+            justify-items: center;
+            grid-template-areas:
+            "coffee-header coffee-header"
+            "coffee-items coffee-price"
+            "tea-header tea-header"
+            "tea-items tea-price";
+            grid-gap: 1em;
+        }
+        
                 
         
     
