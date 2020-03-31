@@ -12,8 +12,6 @@
     --primary-icon-color: rgb(174, 193, 54);
 
  }
-
-
  
  /* CSS Reset */
 
@@ -49,8 +47,12 @@
 .navbar .navbar-cta {
     display: flex;
     align-items: center;
-    background: #fff;
+    background: var(--secondary-bg-color);
     padding: 0.5em 2em;
+}
+
+.navbar .navbar-cta, h2 a {
+    color: var(--primary-text-color);
 }
 
 .navbar .navbar-cta .fa-mobile-alt {
@@ -117,8 +119,6 @@
     list-style: none;
     padding: 0.5em 0;
 }
-
-
 
 /* Hero Section */
 
@@ -395,6 +395,55 @@
     text-align: center;
 }
  
+.footer-section {
+    background: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    width: 100%;
+    padding: 3em 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.bottom-footer {
+    background: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-footer, a {
+    color: white;
+}
+
+.bottom-footer .social-icons {
+    color: var(--primary-icon-color);
+}
+
+.bottom-footer .social-icons .fa-facebook {
+    margin: 0 0.2em;
+}
+
+.bottom-footer .social-icons .fa-twitter {
+    margin: 0 0.2em;
+}
+
+.bottom-footer .social-icons .fa-instagram {
+    margin: 0 0.2em;
+}
+
 
 
 
@@ -573,6 +622,50 @@
             width: 90%;
             padding-bottom: 3em;
         }
+
+        .footer-section {
+            background: var(--primary-bg-color);
+            color: var(--secondary-text-color);
+            width: 100%;
+            padding: 3em 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+        }
+        
+        .footer-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .left-section {
+            padding-bottom: 3em;
+        }
+        
+        
+        .bottom-footer {
+            background: var(--primary-bg-color);
+            color: var(--secondary-text-color);
+            width: 100%;
+            padding-top: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .bottom-footer, a {
+            color: white;
+        }
+        
+        .bottom-footer .social-icons {
+            padding: 0 5em;
+        }
+                
         
     
 }
