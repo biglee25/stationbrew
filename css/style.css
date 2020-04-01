@@ -87,23 +87,27 @@
 }
 
 .menu {
-    position: absolute;
+    transition: 20s ease-in-out;
+    position: fixed;
     top: 0;
-    left:0;
+    left: 0;
     background: #241E20;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    min-height: 100vh;
     z-index: 3;
     opacity: 0.99;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    padding: 5em 0;
+}
+
+.menu > img {
+    width: 50%;
+    height: auto;
 }
 
 .menu .fa-times-circle {
@@ -538,7 +542,7 @@
 
 
 
-
+/* ---------------------------------------------------------------- */
 
 
 
@@ -567,6 +571,7 @@
 
     .navbar > img {
         width: 35%;
+        height: auto;
     }
    
 
@@ -601,10 +606,10 @@
     .hero-cta {
         background: #241E20;
         color: #fff;
-        width: 90%;
+        width: 95%;
         height: auto;
         padding: 1.5em 2em;
-        margin-top: -0.5em;
+        margin-top: 2em;
         text-align: center;
     }
 
