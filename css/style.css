@@ -447,63 +447,63 @@
 
 /* -------------- Menu Section ---------------- */
 
-.menu-header {
-    width: 100%;
-}
 
-.menu-header .title-container {
+.title-header {
+    background: var(--primary-bg-color);
     color: var(--secondary-text-color);
-    margin: 8em 2em 0 2em;
+    width: auto;
+    margin: 9em 1em 1em 1em;
     padding: 2em;
-    background: #000;
     text-align: center;
 }
 
-.menu-items .menu-container {
-    padding: 2em;
+.menu-section {
+    margin: auto;
+    padding: 1em;
     display: grid;
-    justify-items: center;
-    grid-template-areas:
-    "coffee-header coffee-header coffee-header tea-header tea-header tea-header"
-    "coffee-items coffee-items coffee-price tea-items tea-items tea-price";
-    grid-gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.coffee-header {
-    grid-area: coffee-header;
+.menu-section .menu-wrapper {
     width: 100%;
-    height: auto;
+}
+
+.menu-section .menu-header {
     background: #676062;
     color: var(--secondary-text-color);
-    padding: 1em;
-}
-
-.tea-header {
-    grid-area: tea-header;
-    width: 100%;
     height: auto;
-    background: #676062;
-    color: var(--secondary-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 1em;
+    margin: 1em;
 }
 
-.coffee-items {
-    grid-area: coffee-items;
+.menu-section .items .justify {
+    padding: 0 2em;
+    display: flex;
+    justify-content: space-between;
 }
 
-.coffee-price {
-    grid-area: coffee-price;
+.menu-section .ad {
+    background: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8em;
+    padding: 0 5em;
 }
 
-.tea-items {
-    grid-area: tea-items;
+.menu-section .ad .fa-pagelines {
+    color: var(--primary-icon-color);
+    margin-bottom: 0.2em;
 }
-
-.tea-price {
-    grid-area: tea-price;
-
-}
-
 
 
 
@@ -737,17 +737,6 @@
             padding: 0 5em;
         }
 
-        .menu-items .menu-container {
-            padding: 2em;
-            display: grid;
-            justify-items: center;
-            grid-template-areas:
-            "coffee-header coffee-header"
-            "coffee-items coffee-price"
-            "tea-header tea-header"
-            "tea-items tea-price";
-            grid-gap: 1em;
-        }
         
                 
         
