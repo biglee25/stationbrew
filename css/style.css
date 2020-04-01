@@ -76,7 +76,8 @@
     margin: 0 0.3em;
 }
 
-.navbar .fas {
+.navbar .fa-bars {
+    cursor: pointer;
     text-decoration: none;
     color: var(--secondary-text-color)
 }
@@ -102,7 +103,7 @@
     align-items: center;
     justify-content: center;
     position: fixed;
-
+    padding: 5em 0;
 }
 
 .menu .fa-times-circle {
@@ -155,6 +156,10 @@
     margin-top: 1em;
     font-size: 1.2em;
     font-weight: 300;
+  }
+
+  .hero-cta .btn > a {
+      color: #000;
   }
 
   /* About Section */
@@ -424,12 +429,16 @@
     justify-content: center;
 }
 
-.bottom-footer, a {
+.right-section, a {
     color: white;
 }
 
-.bottom-footer .social-icons {
-    color: var(--primary-icon-color);
+.right-section .fa-mobile-alt {
+    margin: 0.3em 0;
+}
+
+.right-section .fa-envelope {
+    margin: 0.3em 0;
 }
 
 .bottom-footer .social-icons .fa-facebook {
@@ -508,6 +517,20 @@
     margin-bottom: 0.2em;
 }
 
+
+/* Contact Section */
+
+.map-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 10em 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -707,6 +730,10 @@
             justify-content: space-around;
             text-align: center;
         }
+
+        .footer-section > p, a {
+            color: #fff;
+        }
         
         .footer-wrapper {
             width: 100%;
@@ -732,12 +759,17 @@
             justify-content: center;
         }
         
-        .bottom-footer, a {
+        .right-section > a {
             color: white;
         }
         
         .bottom-footer .social-icons {
-            padding: 0 5em;
+            color: #fff;
+        }
+
+        .bottom-footer a {
+            color: #fff;
+            padding-bottom: 1em;
         }
 
         
@@ -793,7 +825,36 @@
         margin: 1em 0;
     }
     
-    
+    /* Contact Section */
+
+.map-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 5em 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-section, img {
+    width: 100%;
+    height: 100%;
+    margin: 2em 0;
+}
+
+.map-section .contact-info {
+    padding-top: 4.5em;
+}
+
+.map-section .contact-info, a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-text-color);
+}
         
     
 }

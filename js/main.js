@@ -13,5 +13,6 @@ function closeMenu() {
         slideMenu.style.display = "none";
     } else {
         slideMenu.style.display = "block";
+
     }
   }
