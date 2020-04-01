@@ -64,15 +64,22 @@
     color: var(--primary-text-color);
 }
 
+.navbar .social-icons {
+    display: flex;
+}
+
 .navbar .social-icons .fa-facebook {
+    color: var(--secondary-text-color);
     margin: 0 0.3em;
 }
 
 .navbar .social-icons .fa-twitter {
+    color: var(--secondary-text-color);
     margin: 0 0.3em;
 }
 
 .navbar .social-icons .fa-instagram {
+    color: var(--secondary-text-color);
     margin: 0 0.3em;
 }
 
@@ -600,11 +607,6 @@
        display: none;
    }
 
-   /* Slide Menu */
-
-
-
-
 
    /* Hero */
 
@@ -626,7 +628,7 @@
         width: 95%;
         height: auto;
         padding: 1.5em 2em;
-        margin-top: 3em;
+        margin-top: -2em;
         text-align: center;
     }
 
