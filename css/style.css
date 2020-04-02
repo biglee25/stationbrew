@@ -420,6 +420,7 @@
     text-align: center;
 }
 
+
 .footer-wrapper {
     width: 80%;
     display: flex;
@@ -439,9 +440,10 @@
     justify-content: center;
 }
 
-.right-section, a {
+.right-section > a {
     color: white;
 }
+
 
 .right-section .fa-mobile-alt {
     margin: 0.3em 0;
@@ -463,6 +465,12 @@
     margin: 0 0.2em;
 }
 
+.bottom-footer a {
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+
 
 /* -------------- Menu Section ---------------- */
 
@@ -476,9 +484,14 @@
     text-align: center;
 }
 
+.title-header .fa-utensils {
+    color: var(--primary-icon-color);
+    margin-bottom: 0.2em;
+}
+
 .menu-section {
     margin: auto;
-    padding: 1em;
+    padding: 2em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -530,6 +543,7 @@
 
 /* Contact Section */
 
+
 .map-section {
     width: 100%;
     margin: 0;
@@ -541,6 +555,19 @@
     align-items: center;
     justify-content: center;
 }
+
+.map-section .fa-map-marker-alt {
+    color: var(--primary-icon-color);
+    margin-bottom: 0.5em;
+}
+
+.map-section .map-title {
+    background: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    width: 100%;
+    padding: 2em;
+}
+
 
 .map-section > img {
     width: 60%;
@@ -593,9 +620,9 @@
         background: var(--primary-bg-color);
     }
 
-    .navbar > .nav-image {
-        width: 100%;
-        height: 100%;
+    .navbar > img {
+        width: 35%;
+        height: auto;
     }
    
 
