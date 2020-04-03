@@ -95,8 +95,6 @@
 
 .menu {
     position: fixed;
-    top: 0;
-    left: 0;
     background: #241E20;
     color: #fff;
     font-size: 1.2rem;
@@ -109,26 +107,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 0.2s ease-in;
 }
 
-.menu > img {
-    width: 50%;
-    height: 100%;
-}
-
-.menu .fa-times-circle {
+.menu .fa-times {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    cursor: pointer;
-    color: #fff;
+    top: 40px;
+    right: 20px;
 }
 
 .menu li {
-    color: rgb(174, 193, 54);
-    cursor: pointer;
-    list-style: none;
-    padding: 0.5em 0;
+    color: var(--secondary-text-color);
+    line-height: 50px;
 }
 
 /* Hero Section */
