@@ -30,6 +30,13 @@
      overflow-x: hidden;
  }
 
+ .logo {
+     width: auto;
+     height: 100;
+     padding: 0;
+     margin: 0;
+ }
+
 /* Navbar Section */
 
  .navbar {
@@ -114,7 +121,7 @@
 .menu .fa-times {
     position: absolute;
     cursor: pointer;
-    top: 40px;
+    top: 30px;
     right: 20px;
 }
 
@@ -541,7 +548,7 @@
 
 
 .map-section {
-    width: 100%;
+    width: auto;
     margin: 0;
     padding: 0;
     padding: 10em 0;
@@ -602,7 +609,7 @@
 
 
  /* SMARTPHONES PORTRAIT */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
     .navbar {
         display: flex;
@@ -610,17 +617,18 @@
         align-items: center;
         justify-content: space-between;
         padding: 1em;
-        height: 10%;
+        height: auto;
         z-index: 2;
         color: var(--secondary-text-color);
         background: var(--primary-bg-color);
     }
 
-    .navbar > img {
-        width: 35%;
-        height: auto;
-    }
-   
+   .logo {
+       width: 40%;
+       height: auto;
+       margin: 0;
+       padding: 0;
+   }
 
    .navbar .navbar-cta {
        display: none;
@@ -826,9 +834,13 @@
         background: var(--primary-bg-color);
         color: var(--secondary-text-color);
         width: auto;
-        margin: 5em 0.5em 0.5em 0.5em;
-        padding: 1em;
+        margin: 8em 0.5em 0 0.5em;
+        padding: 2em;
         text-align: center;
+    }
+
+    .title-header .fa-map-marker-alt {
+        color: var(--primary-icon-color);
     }
     
 
@@ -876,7 +888,7 @@
 
 .map-section {
     width: 100%;
-    margin: 0;
+    margin: auto;
     padding: 0;
     padding: 5em 0;
     display: flex;
