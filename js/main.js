@@ -1,20 +1,20 @@
 function openMenu() {
 var slideMenu = document.getElementById("menu-wrapper");
-if (slideMenu.style.display === "block") {
-    slideMenu.style.display = "none";
-} else {
-    slideMenu.style.display = "block";
+    if (slideMenu.style.width === "100%") {
+        slideMenu.style.width = "0";
+    } else {
+        slideMenu.style.width = "100%";
     }
 }
 
 function closeMenu() {
 var slideMenu = document.getElementById("menu-wrapper");
-if (slideMenu.style.display === "block") {
-slideMenu.style.display = "none";
-} else {
-slideMenu.style.display = "block";
+    if (slideMenu.style.width === "0") {
+        slideMenu.style.width = "100%";
+    } else {
+        slideMenu.style.width = "0";
 
-}
+    }
 }
 
 
